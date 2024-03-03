@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreshift_tools=self.webpackChunkreshift_tools||[]).push([[105],{5693:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/reshift","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

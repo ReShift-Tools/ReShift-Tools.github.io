@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreshift_tools=self.webpackChunkreshift_tools||[]).push([[36],{3666:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/qade","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreshift_tools=self.webpackChunkreshift_tools||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Test Blog Post","permalink":"/blog/test-blog-post","unlisted":false}]}')}}]);
