@@ -3,6 +3,11 @@ title: Creating Your First Mission
 sidebar_position: 1
 ---
 <hr  /> 
+
+![Banner](/img/QadeBanner.png)
+
+
+## Intro
 In this step-by-step tutorial, you will create a basic mission with QADE. By the end of the tutorial, you will have a simple mission where you have to walk to  that you can play from start to finish like in the preview below.
 
 In this tutorial you will learn all the basics of mission creation in QADE:

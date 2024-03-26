@@ -3,7 +3,8 @@ title: Getting Started
 sidebar_position: 1
 ---
 
-# Getting Started
+<hr  /> 
+![Banner](/img/QadeBanner.png)
 
 
 ## Downloading QADE
