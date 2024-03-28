@@ -1,6 +1,6 @@
 ---
-title: Creating Your First Dialogue
-sidebar_position: 1
+title: Creating Character Profiles
+sidebar_position: 2
 ---
 <hr  /> 
 

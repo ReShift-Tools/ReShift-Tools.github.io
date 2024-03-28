@@ -16,7 +16,10 @@ When you have access to the discord channel, you have to go to the discord chann
 
 <hr  /> 
 
-When you have selected the version you want you click on the form post and find the zip folder in the current post. This is the plugin that you will be using. The next step will be setting it up in your own project.
+When you have selected the version you want you click on the forum post and find the zip folder in the current post. This is the plugin that you will be using. The next step will be setting it up in your own project.
+
+![Release Discord Post](/img/GettingStarted/DiscordRelease.png)
+
 
 :::warning
 
@@ -48,6 +51,6 @@ After that step, you will need to open an extra file explorer. Go to the downloa
 
 To make sure that the plugin is correctly set up in your project we can play the example level that we have created. This is placed in the plugin folder and you will find a folder called “Plugins/Qade Content/Maps”.
 
-This is what you should see if this is not the case make sure to contact the developers.
+The image below shows what you should see. If this is not the case make sure to contact the developers.
 
 ![Map Plugin](/img/GettingStarted/map.jpg)

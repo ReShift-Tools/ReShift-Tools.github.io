@@ -53,11 +53,11 @@ For now we will just add the base Objective Node to our graph. Once we have the 
 
 #### Objective Settings
 
-Once you have added the objective you can also change it’s game display text in the defaults panel this will be the text that can show up in your current objective HUD UI element (if you decide to show that to the player). 
+Once you have added the objective you can also change it’s **game display text** in the defaults panel this will be the text that can show up in your current objective HUD UI element (if you decide to show that to the player). 
 
 
 
-![ObjectiveSettings](/img/QadeBasics/FirstMission/ObjectiveSettings.png)
+![ObjectiveSettings](/img/QadeBasics/FirstMission/ObjectiveSettingsV2.png)
 
 :::warning
 For now you can leave the walk to position variable on None as we will get back to this later on in the tutorial.
