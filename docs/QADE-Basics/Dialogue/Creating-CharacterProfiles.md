@@ -8,4 +8,5 @@ sidebar_position: 2
 
 
 ## Intro
-Coming Soon!!!
+Here you will learn how to create a character profile for your characters.
+
