@@ -8,7 +8,7 @@ sidebar_position: 1
 
 
 ## Intro
-In this step-by-step tutorial, you will create a basic mission with QADE. By the end of the tutorial, you will have a simple mission where you have to walk to  that you can play from start to finish like in the preview below.
+In this step-by-step tutorial, you will create a basic mission with QADE. By the end of the tutorial, you will have a simple mission which you can play from start to finish by walking from 1 point to another like in the preview below.
 
 In this tutorial you will learn all the basics of mission creation in QADE:
 
@@ -34,26 +34,34 @@ Now that you have the editor open you should see a start node in the graph, this
 
 ### Adding Nodes
 You can create a new node by right clicking anywhere in the graph or by dragging out from a node just like in blueprints.
-In the context menu you will see a lot of different nodes this is because the plugin comes with a lot of example objectives and utilities.
+In the context menu you will see various nodes. This is because the plugin comes with several example objectives and utilities.
+
 ![ContextMenuNodes](/img/QadeBasics/FirstMission/ContextMenuExample.png)
+
 :::info
 All the premade example objectives and utilities are normal objective/utility nodes but with example objectives and utilities already applied to them.
 :::
 
-#### Objectives
+#### Adding Objectives
 For now we will just add the base Objective Node to our graph. Once we have the node connected to our start node we will set a objective on the node by clicking on it and then in the details panel on the right side we will select the walk to position objective as we want the player to walk to a specific trigger box for this mission.
 
 <video controls width="80%">
     <source src="/img/QadeBasics/FirstMission/ExampleObjectiveVid.mp4"/>
 </video>
 
-Once you have added the objective you can also change it’s game display text in the defaults panel this will be the text that can show up in your current objective Hud UI element (if you decide to show that to the player). 
+<hr />
+
+#### Objective Settings
+
+Once you have added the objective you can also change it’s game display text in the defaults panel this will be the text that can show up in your current objective HUD UI element (if you decide to show that to the player). 
+
+
+
+![ObjectiveSettings](/img/QadeBasics/FirstMission/ObjectiveSettings.png)
 
 :::warning
 For now you can leave the walk to position variable on None as we will get back to this later on in the tutorial.
 :::
-
-![ObjectiveSettings](/img/QadeBasics/FirstMission/ObjectiveSettings.png)
 <hr  /> 
 
 #### Utilities
