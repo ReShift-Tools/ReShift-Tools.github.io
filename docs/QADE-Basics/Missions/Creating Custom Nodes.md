@@ -23,21 +23,21 @@ To create your own objectives you can:
 <br/>
 
 ## Adding Functionality
-Mission Objectives work the same way as blueprints! you can add functionality to create your own Objectives.
+Mission Objectives work the same way as blueprints! You can add functionality to create your own Objectives.
 
 ### On Execute Event Node
-The On Execute Event will be called when the objective starts this is where you can start your logic for the objective.
+The On Execute Event will be called when the objective starts and this is where you can start your logic for the objective.
 
 ![ObjectiveStartEvent](/img/QadeBasics/CustomNodes/StartObjectiveEvent.png)
 
 
 ### Completing/Finishing Objectives
-To be able to finish/complete an objective you will need to call the Finish Function as this sends a signal to the mission system that this objective has been finished.
+To finish/complete an objective you will need to call the Finish Function as this sends a signal to the mission system that this objective has been finished.
 
 ![ObjectiveFinish](/img/QadeBasics/CustomNodes/FinishFunction.png)
 
 ### Fail a Objective
-If you want to add the option to fail an objective you need to enable it by doing the following:
+If you want to add the option to fail an objective, you need to enable it by doing the following:
 1. Going to the Class Defaults.
 2. Enable Can Fail Objective.
 
@@ -55,10 +55,11 @@ This will now add an extra pin to the objective node in the mission graph which 
 Creating custom variables for your objective works the same as any other normal blueprint variable. 
 But there are some things to keep in mind especially when adding variables for references to actors in the world.
 
-For references you can't use normal actor references, you will either need to use:
+For references you can't use normal actor references, but you will either need to use: 
 1. **Soft references**, this will let you select a actor from the level but limits you to that level as it selects a actor from a specific level.
 2. **Tags**, this is a useful way to make a mission especially if you want to re use the mission.
 
+<br/>
 :::info 
 We also validate the variables but this is not for all the variables turned on. To do that you would need to click on the Eye. This will validate if the value has been filled in. 
 ::: 
@@ -72,12 +73,12 @@ We also validate the variables but this is not for all the variables turned on. 
 
 Mission utilities are created in the same way as objective but with a few key differences.
 
-1. In content browser, click on Mission Utility instead of Objective.
-2. Utilities cannot officially fail, So instead the class defaults has a "Has Custom Pin" option that can be enabled
-3. Instead of the fail function the Execute Custom Output pin function should be called.
+1. In the content browser, click on Mission Utility instead of Objective.
+2. Utilities cannot officially fail. Instead, the class ***defaults tab*** has a ***"Has Custom Pin"*** option that can be enabled
+3. Instead of the ***Fail*** function, the ***Execute Custom Output pin*** function should be called.
 
 
-## Overidable Functions
+## Overridable Functions
 <hr/>
 Both Utilities and objectives have overridable functions.
 

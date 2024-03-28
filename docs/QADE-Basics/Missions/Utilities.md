@@ -8,8 +8,7 @@ sidebar_position: 3
 
 <img align="right" src="/img/QadeBasics/UtilityNodes/UtilityNodeExample.png"> </img>
 ## What is it?
-A utiltiy node is a container for utility assets, these utility assets are used for tasks/functionality that
-should happen inbetween objectives. Think spawning in a actor, teleporting the player or even a debug print string.
+A ***utility node*** is a container for **utility** assets and these **utility** assets are used for tasks/functionality that should happen in between objectives. Think of spawning in an actor, teleporting the player or even a debug print string.
 
 <br/>
 

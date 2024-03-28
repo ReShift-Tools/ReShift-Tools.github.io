@@ -9,8 +9,7 @@ sidebar_position: 2
 
 <img align="right" src="/img/QadeBasics/ObjectiveNodes/ObjectiveNodeExample.png"> </img>
 ## What is it?
-A **Objective Node** is a node that can contain a **objective asset**, these nodes are specific to the mission graph.
-when used within a mission graph together with an assigned objective it will start that objective for the player.
+An ***Objective Node*** is a node that can contain a **objective** asset and they are specific to the mission graph. When used within a mission graph together with an assigned objective it will start that objective for the player.
 
 <br/><br/>
 

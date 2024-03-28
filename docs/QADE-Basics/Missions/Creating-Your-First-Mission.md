@@ -65,7 +65,7 @@ For now you can leave the walk to position variable on None as we will get back 
 <hr  /> 
 
 #### Utilities
-Utility nodes can be used to add logic outside of our player objectives to a mission, things such as teleporting, playing a cinematic sequence, actor spawning and a lot more. Now we will add a utility node to our graph behind the walk to position objective. Utility nodes can have more than 1 event on a node so you can combine multiple events to create more complex mission logic. For now we will simply add a print string event for our test. 
+Utility nodes can be used to add logic outside of our player objectives to a mission, things such as teleporting, playing a cinematic sequence, actor spawning and a lot more. Now we will add a utility node to our graph behind the ***walk to position*** objective. Utility nodes can have more than 1 event on a node so you can combine multiple events to create more complex mission logic. For now we will simply add a print string event for our test. 
 
 ![UtilityExample](/img/QadeBasics/FirstMission/UtilityExample.png)
 
@@ -76,21 +76,20 @@ Once you have added the print string event you can then change the text, duratio
 
 ### Mission Flow
 In QADE we also have flow/conditional nodes, you might already be familiar with some of these as they also exist in Blueprints.
-Think of the sequence node, and node, or node.
-For the next step in our mission we will add a sequence node with two outputs and add two more walk to position objective nodes, one for each output pin.
+Think of the ***Sequence*** node, ***AND*** node, ***OR*** node.
+For the next step in our mission we will add a ***Sequence node*** with two outputs and add two more walk to position objective nodes, one for each output pin.
 After you have the nodes add a fail node to one of the objectives and a finish node to the other. 
 
 Once you have done this the graph should look similar to the screenshot below.
 
 ![FlowExample](/img/QadeBasics/FirstMission/FlowExample.png)
 
-At this point your mission design is complete all we need to do now is to add triggers to our level and assign them to the nodes. which is what we will do in the next segment.
+At this point your mission design is complete all we need to do now is to add triggers to our level and assign them to the nodes. We will continue doing that in the next segment.
 
 ## Mission Level Setup
 <hr  /> 
 
-Now that you have your mission graph made, you will need to assign actors to the objectives.
-To do this you will need to add them to your level, in this case you will need Qade Triggers that can be found in Unreal’s Quick Add menu, under the Qade category.
+Now that you have your mission graph made, you will need to assign actors to the objectives. To do this you will need to add them to your level. In this case you will need Qade Triggers that can be found in Unreal’s Quick Add menu, under the Qade category.
 
 ![TriggerLocation](/img/QadeBasics/FirstMission/TriggerLocation.png)
 
@@ -100,17 +99,18 @@ Once you have placed your triggers, you can go back into the graph and click on 
 Once in the details panel there should be an variable called walk to position where you can assign a trigger from the level.
 
 :::warning
-Currently we use soft references for our example objectives this means you can easily select an actor from the level but only from the level where the mission gets used. So you can’t use this mission in other levels. To be able to use it in other levels you can make you own objectives or modify the existing ones to use tags instead. We will update the example ones soon with a option to choose between tags and soft references. 
+Currently we use soft references for our example objectives, which means you can easily select an actor from the level but only from the level where the mission gets used.
 :::
 
 ![MissionFinal](/img/QadeBasics/FirstMission/MissionFinal.png)
 
-Congrats you now have a complete mission, in the next section we will tell you how to start your new mission.
+Congrats you now have a complete mission. In the next section we will tell you how to start your new mission.
 
 ## Mission Level Setup
-There are two different ways you can use to start your mission, you can use our premade rungraph blueprint which can be found in the plugin content folder.
-
-And option 2 is you can start it from any other blueprint through the Mission Subsystem, here you can just get the subsystem and call StartMission.
+There are two different ways you can use to start your mission. <br/>
+First, you can use our premade **RunGraph** blueprint which can be found in the **plugin content** folder.
+<br/>
+Secondly, you can start it from any other blueprint through the ***Mission Subsystem***, here you can just get the subsystem and call ***StartMission***. 
 
 #### Example HUD
-After starting your mission you might have noticed that there is no UI, for now to test your mission you can add the example UI from the plugin which is called WI_ExampleHud to your player at begin play.
+After starting your mission you might have noticed that there is no UI. For now to test your mission you can add the example UI from the plugin which is called **WI_ExampleHud** to your player on ***BeginPlay***.
