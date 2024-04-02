@@ -17,7 +17,7 @@ Right-click in a blueprint graph and search 'Get DialogueSubsystem'.
 No Manual setup for the **Dialogue Subsystem** is required.
 :::
 
-## Subsystem Functionality
+## Dialogue Subsystem Functionality
 <hr  />
 
 ### Start Dialogue
@@ -84,7 +84,39 @@ You would need to setup a system to send the correct index. You can get the list
 **Toggle auto skip** is still work in progress. it doesn't do anything
 :::
 
-## Subsystem Getters
+## Dialogue Subsystem Getters
 <hr />
 
-    
+### Get Active Dialogue
+**Dialogue Graph** Returns the active dialogue graph.
+### Get Active Node 
+**Dialogue node** Returns the active dialogue node 
+:::warning
+Only gets the first node that is active. We will resolve this issue later
+:::  
+### Get Active Response
+**Response_Node** Returns the current active response
+### Get All Player Choices 
+**Array Player Response Nodes** Returns all the player reponse nodes.
+### Get All Choices Text  
+**Array Text** Returns all the player choices text as an example *["I am skipping this dialoge", "I want to continue this mission"]*
+### Get All Choices States 
+**Array Node States** Returns all the player respones states.
+
+## Dialogue Subsystem Delegate Events
+<hr />
+
+### Started Dialogue 
+This Delegate will be called whenever a **dialogue has Started**.
+### Ended Dialogue 
+This Delegate will be called whenever a **dialogue has Ended**.
+### Aborted Dialogue
+This Delegate will be called whenever a **dialogue has Aborted**.
+### Dialogue Started Subtitle
+This Delegate will be called whenever a response node needs the subtitle.
+### Dialogue Ended Subtitle
+This Delegate will be called whenever the response node is done with the subtitle.
+### Update Subtitle Dialogue
+This Delegate will be called whenever a new line needs to be updated in the subtitle. 
+### Pick A choice Dialogue
+This Delegate will be called whenever you get the option to pick a choice in the dialogue.
