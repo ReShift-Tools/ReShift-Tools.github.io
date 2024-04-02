@@ -12,7 +12,9 @@ sidebar_position: 1
 
 The **Mission Subsystem** can be accessed from anywhere.
 Right-click in a blueprint graph and search 'Get MissionSubsystem'.
+
 ![GetMissionSubsystem](/img/QadeBasics/MissionSubsystem/GetMissionSubsystem.png)
+
 :::info
 No Manual setup for the **Mission Subsystem** is required.
 :::
@@ -51,7 +53,9 @@ When you want to cancel a mission entirely and not have it listed as failed or c
 
 ### Restart Mission
 To restart a mission you just stopped or cancelled. You call the **Restart Mission** function right after **Stop mission** or **Cancel Mission**.
+
 ![RestartMission](/img/QadeBasics/MissionSubsystem/RestartMission.png)
+
 **Restart Mission** restarts the last stopped mission.
 :::warning
 **Restart Mission** only restarts the last stopped mission.

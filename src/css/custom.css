@@ -30,3 +30,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-hr-background-color: rgba(119, 119, 119, 0.514);
 }
+
+[data-theme='light'] {
+  --ifm-color-primary: #1ea386;
+}
+
+h3 {
+  color: var(--ifm-color-primary);
+}
