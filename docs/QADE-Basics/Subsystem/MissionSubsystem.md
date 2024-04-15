@@ -89,7 +89,7 @@ No Manual setup for the **Mission Subsystem** is required.
  Returns an array of **Cancelled Missions**.
 
 
-## Dialogue Subsystem Objective Functions
+## Mission Subsystem Objective Functions
 <hr  />
  
  ### Get All Selected Objectives
@@ -195,7 +195,7 @@ No Manual setup for the **Mission Subsystem** is required.
  **On Active Updated** delegate is broadcasted when any **Active Mission** has been updated.
  :::info
  **On Active Updated** can be used to notify the player on *Mission* updates that are not the **Selected Mission**
- ::: <br  />
+ :::
  ![OnActiveUpdated](/img/QadeBasics/MissionSubsystem/OnActiveUpdated_Delegate.png) <br  />
  *Bound event* returns the *Mission* that was updated.
  :::info
