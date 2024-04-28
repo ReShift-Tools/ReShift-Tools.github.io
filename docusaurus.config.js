@@ -101,7 +101,12 @@ const config = {
             ],
           },
         ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} ReShift Tools, Inc. Built with Docusaurus.`,
+        copyright: `<b>Copyright © ${new Date().getFullYear()} ReShift Tools, Inc. All rights reserved.</b> 
+        <br/>
+        Chamber of Commerce registry: 93669321
+        <br/>
+        `,
+        
       },
       prism: {
         theme: prismThemes.github,
