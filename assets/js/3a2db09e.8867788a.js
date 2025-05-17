@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreshift_tools=self.webpackChunkreshift_tools||[]).push([[121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"QADE","permalink":"/blog/tags/qade","count":1},{"label":"Reshift","permalink":"/blog/tags/reshift","count":1}]}')}}]);
