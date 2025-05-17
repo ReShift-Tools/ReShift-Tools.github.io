@@ -62,7 +62,7 @@ const config = {
         title: 'ReShift Tools',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/ReShiftLogo.png',
         },
         items: [
           {
@@ -81,14 +81,18 @@ const config = {
       },
       footer: {
         style: 'dark',
-       /* links: [
+        links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Documentation',
-                to: '/docs/intro',
+                label: 'Getting Started',
+                to: '/docs/GettingStarted',
               },
+              {
+                label: 'Missions',
+                to: '/docs/QADE-Basics/Missions/Creating-Your-First-Mission',
+              }
             ],
           },
           {
@@ -96,12 +100,12 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/2ABGYYxmbw',
               },
             ],
           },
-        ],*/
-        copyright: `<b>Copyright © ${new Date().getFullYear()} ReShift Tools, Inc. All rights reserved.</b> 
+        ],
+        copyright: `<b>Copyright © ${new Date().getFullYear()} Re:Shift Games, Inc. All rights reserved.</b> 
         <br/>
         Chamber of Commerce registry: 93669321
         <br/>
